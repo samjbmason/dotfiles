@@ -1,13 +1,11 @@
 # Mason does .dotfiles
 
 ## dotfiles
----
 dotfiles are what make up your personalised system. These are mine.
 
 After moving to a two mac setup one for home and one for the office I quickly became enraged that if I was hacking my home laptop over the weekend. I would lose all my shortcuts and aliases when I got into work.
 
 ## install
----
 This is a very simple way of getting into the whole "share my dotfiles" thing. If you want some more complex and fully featured things check out [dotfiles.github.com](http://dotfiles.github.com/) for some awesome guides.
 
 This is all pretty much taken from Michael Smalley's post [here](http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/), I just hacked it up and changed it a bit to suit my needs.
@@ -21,8 +19,7 @@ This is all pretty much taken from Michael Smalley's post [here](http://blog.sma
 7. Run `sh makelinks.sh` in your terminal. You should see some comments this means its working.
 8. Voilà!
 
-## Github setup
----
+## github setup
 Well done guys you have successfully created a dotfiles folder full of your lovely goodies.
 Next you just need to push it up to github so that you can retrieve on any other *nix computers. First off create a github account if you haven't already.
 
@@ -36,13 +33,11 @@ Now its time for you to push it all up to the great ship Github,
 if you visit your repo page in github you should see some instructions simply type these into your terminal and then when you refresh the page you should see all your folders and files.
 
 ## adding to another mac
----
 Now all this is awesome for nerd points but for it to be useful you will want to add this new dotfiles to your second mac. Simply open up terminal type `cd ~/`, then in github grab the address near the top of the page should look something like this `git@github.com:samjbmason/dotfiles.git` and in your terminal type `git clone git@github.com:samjbmason/dotfiles.git` this will clone your dotfiles repo down to your home directory. 
 
 Next simply run the makelinks.sh script again and you should be all up and running.
 
 ## pulling down changes
----
 Say you added a cool feature to one of your files and pushed it up to your repo to get that on the next machine just cd into the .dotfiles folder and type `git pull` this will pull down any changes to that repo.
 
 ## thanks
