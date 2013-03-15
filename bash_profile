@@ -8,7 +8,7 @@ function parse_git_branch {
 	git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
 
-alias dot='cd ~/.dotfiles'
+alias dotfiles='cd ~/.dotfiles'
 alias sites='cd ~/Sites'
 alias maison='cd ~/Sites/Git\ Repos/maison.io'
 alias sapling='cd ~/Sites/Git\ Repos/sapling'
