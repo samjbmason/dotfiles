@@ -1,4 +1,4 @@
-export PATH="/usr/local/bin:/usr/local/share/npm/bin:/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
+export PATH="/usr/local/bin:/usr/local/share/npm/bin:$PATH"
 
 ## Rbenv Setup
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
