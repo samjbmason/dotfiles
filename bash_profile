@@ -11,7 +11,7 @@ function parse_git_branch {
 alias dotfiles='cd ~/.dotfiles'
 alias sites='cd ~/Sites'
 alias maison='cd ~/Sites/Git_Repos/maison.io'
-alias sapling='cd ~/Sites/Git_Repos/sapling'
+alias gthr='cd ~/Sites/Git_Repos/gthr'
 
 ## Fucking-ay cool terminal hotness
 PS1='\[\e[0;31m\]⚡\[\e[m\] \[\e[0;30m\]${PWD##*/}\[\e[39m\]\[\e[1;32m\]$(parse_git_branch)\[\e[m\] '
