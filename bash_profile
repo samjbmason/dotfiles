@@ -1,7 +1,4 @@
-export PATH="/usr/local/bin:/usr/local/share/npm/bin:$PATH"
-
-## Rbenv Setup
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+export PATH="/usr/local/bin:$PATH"
 
 ## Git branching in terminal
 function parse_git_branch {
