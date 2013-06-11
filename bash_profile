@@ -1,4 +1,4 @@
-export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/share/npm/bin:/usr/local/bin:$PATH"
 
 ## Git branching in terminal
 function parse_git_branch {
