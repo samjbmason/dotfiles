@@ -5,6 +5,9 @@ function parse_git_branch {
 	git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
 
+## Rbenv setup & autocompletion
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
 alias dotfiles='cd ~/.dotfiles'
 alias sites='cd ~/Sites'
 alias maison='cd ~/Sites/Git_Repos/maison.io'
