@@ -7,13 +7,7 @@ function parse_git_branch {
 ## Rbenv shims and autocomplete
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
-<<<<<<< HEAD
 ## Aliases
-=======
-## Rbenv setup & autocompletion
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
-
->>>>>>> 37f1f4a94f9c2d02e357a550a4235ab6680a4670
 alias dotfiles='cd ~/.dotfiles'
 alias sites='cd ~/Sites'
 alias maison='cd ~/Sites/Git_Repos/maison.io'
