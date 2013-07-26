@@ -4,7 +4,10 @@ export PATH="/usr/local/bin:/usr/local/share/npm/bin:$PATH"
 function parse_git_branch {
 	git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
+## Rbenv shims and autocomplete
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
+## Aliases
 alias dotfiles='cd ~/.dotfiles'
 alias sites='cd ~/Sites'
 alias maison='cd ~/Sites/Git_Repos/maison.io'
