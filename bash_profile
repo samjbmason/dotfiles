@@ -12,6 +12,7 @@ alias dotfiles='cd ~/.dotfiles'
 alias sites='cd ~/Sites'
 alias maison='cd ~/Sites/maison.io'
 alias gthr='cd ~/Sites/gthr'
+alias brewit='brew update; brew upgrade'
 
 ## Fucking-ay cool terminal hotness
 PS1='\[\e[0;31m\]⚡\[\e[m\] \[\e[0;30m\]${PWD##*/}\[\e[39m\]\[\e[1;32m\]$(parse_git_branch)\[\e[m\] '
